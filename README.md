@@ -87,7 +87,7 @@ The system performs the following steps:
 
 The prototype was assembled on a breadboard using the ESP32, INA219 current sensor, voltage-divider circuit, Li-ion battery and different loads.
 
-![Hardware Setup]([hardware/hardware_setup.jpg](https://github.com/adityaatil/Real-Time-Li-Ion-Battery-SOC-Estimation-using-Extended-Kalman-Filter-EKF-/blob/49cfc36b0eb2301c8cf7051c83b65cd61e46ab6e/Hardware/hardware.png)
+![Hardware Setup](Hardware/hardware.png).
 
 ---
 
