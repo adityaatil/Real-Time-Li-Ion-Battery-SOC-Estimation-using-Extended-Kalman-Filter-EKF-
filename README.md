@@ -68,7 +68,7 @@ The system performs the following steps:
 
 ## System Flow
 
-![EKF System Flow](hardware/ekf_flowchart.png)
+![EKF System Flow](https://github.com/adityaatil/Real-Time-Li-Ion-Battery-SOC-Estimation-using-Extended-Kalman-Filter-EKF-/blob/8ad0154186026d4d2a2bcd8ab26a6518d8d498fd/Hardware/ekf_flowchart.png)
 
 The system follows a prediction-and-correction approach:
 
