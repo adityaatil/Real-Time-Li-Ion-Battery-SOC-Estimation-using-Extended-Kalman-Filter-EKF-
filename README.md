@@ -163,6 +163,8 @@ and
 ```text
 SOC → OCV
 ```
+![OCV Graph](results/ocv.png).
+
 
 This allows the estimated SOC to be converted into an expected battery voltage.
 
