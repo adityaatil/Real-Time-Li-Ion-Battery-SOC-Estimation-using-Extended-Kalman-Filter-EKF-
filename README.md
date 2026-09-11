@@ -314,15 +314,15 @@ The DC motor produced a significantly higher current demand, resulting in a fast
 
 ### No Load
 
-![No Load SOC](results/no_load_soc.png)
+![No Load SOC](results/noload.png)
 
 ### LED Load
 
-![LED Load SOC](results/led_load_soc.png)
+![LED Load SOC](results/ledload.png)
 
 ### Motor Load
 
-![Motor Load SOC](results/motor_load_soc.png)
+![Motor Load SOC](results/motorload.png)
 
 The experimental results show that the estimated SOC remains relatively stable under no-load conditions, decreases gradually under the LED load, and decreases more rapidly under the higher-current motor load.
 
