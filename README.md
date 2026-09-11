@@ -70,37 +70,6 @@ The system performs the following steps:
 
 ![EKF System Flow](https://github.com/adityaatil/Real-Time-Li-Ion-Battery-SOC-Estimation-using-Extended-Kalman-Filter-EKF-/blob/8ad0154186026d4d2a2bcd8ab26a6518d8d498fd/Hardware/ekf_flowchart.png)
 
-The system follows a prediction-and-correction approach:
-
-```text
-              Li-ion Battery
-                    |
-          +---------+---------+
-          |                   |
-     Voltage Divider        INA219
-          |                   |
-       ESP32 ADC          Current Sensor
-          |                   |
-          +---------+---------+
-                    |
-                    v
-             Coulomb Counting
-                Prediction
-                    |
-                    v
-                 SOC_pred
-                    |
-                    v
-                OCV-SOC
-                 Model
-                    |
-                    v
-              EKF Correction
-                    |
-                    v
-              Estimated SOC
-```
-
 ---
 
 ## Hardware Used
@@ -118,7 +87,7 @@ The system follows a prediction-and-correction approach:
 
 The prototype was assembled on a breadboard using the ESP32, INA219 current sensor, voltage-divider circuit, Li-ion battery and different loads.
 
-![Hardware Setup](hardware/hardware_setup.jpg)
+![Hardware Setup]([hardware/hardware_setup.jpg](https://github.com/adityaatil/Real-Time-Li-Ion-Battery-SOC-Estimation-using-Extended-Kalman-Filter-EKF-/blob/49cfc36b0eb2301c8cf7051c83b65cd61e46ab6e/Hardware/hardware.png)
 
 ---
 
