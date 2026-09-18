@@ -10,7 +10,7 @@ Adafruit_INA219 ina219;
 
 // ---------------- BATTERY ----------------
 
-float batteryCapacity = 1200; // mAh
+float batteryCapacity = 2600; // mAh
 
 // ---------------- EKF PARAMETERS ----------------
 
